@@ -1,3 +1,5 @@
 language: objective-c
 os: osx
 osx_image: xcode9.3
+xcode_project: TravisCISample.xcodeproj
+xcode_scheme: TravisCISample
