@@ -11,7 +11,7 @@ env:
 
 matrix:
   include:
-    - env: JOB=xcode SCHEME=MoreCodable SDK=iphonesimulator
+    - env: JOB=xcode SCHEME=TravisCISample SDK=iphonesimulator
 
 branches:
   only: 
