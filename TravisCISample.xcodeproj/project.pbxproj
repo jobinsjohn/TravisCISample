@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAABBE962142E93C00377422 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = DAABBE952142E93C00377422 /* .travis.yml */; };
 		DAEC04E02140322700965543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC04DF2140322700965543 /* AppDelegate.swift */; };
 		DAEC04E22140322700965543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC04E12140322700965543 /* ViewController.swift */; };
 		DAEC04E52140322700965543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEC04E32140322700965543 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAABBE952142E93C00377422 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		DAEC04DC2140322700965543 /* TravisCISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisCISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEC04DF2140322700965543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEC04E12140322700965543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		DAEC04DE2140322700965543 /* TravisCISample */ = {
 			isa = PBXGroup;
 			children = (
+				DAABBE952142E93C00377422 /* .travis.yml */,
 				DAEC04DF2140322700965543 /* AppDelegate.swift */,
 				DAEC04E12140322700965543 /* ViewController.swift */,
 				DAEC04E32140322700965543 /* Main.storyboard */,
@@ -179,6 +182,7 @@
 			files = (
 				DAEC04EA2140322800965543 /* LaunchScreen.storyboard in Resources */,
 				DAEC04E72140322800965543 /* Assets.xcassets in Resources */,
+				DAABBE962142E93C00377422 /* .travis.yml in Resources */,
 				DAEC04E52140322700965543 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
