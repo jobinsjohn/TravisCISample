@@ -8,7 +8,11 @@ env:
     - PROJECT=TravisCISample.xcodeproj
     - CONFIG=Release
     - ACTION="build-for-testing test-without-building"
-    
+
+matrix:
+  include:
+    - env: JOB=xcode SCHEME=MoreCodable SDK=iphonesimulator
+
 branches:
   only: 
     - master
