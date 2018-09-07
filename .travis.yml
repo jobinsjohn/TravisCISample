@@ -19,7 +19,7 @@ cache:
 
 script:
   - set -o pipefail
-  - xcodebuild $ACTION -project $PROJECT -scheme $SCHEME -sdk $SDK -destination 'name=iPhone 8,OS=11.3' -configuration $CONFIG ENABLE_TESTABILITY=YES | xcpretty
+  - xcodebuild $ACTION -project $PROJECT -scheme $SCHEME -sdk $SDK -destination 'name=iPhone 8,OS=11.4' -configuration $CONFIG ENABLE_TESTABILITY=YES | xcpretty
 
 notifications:
   email: false
